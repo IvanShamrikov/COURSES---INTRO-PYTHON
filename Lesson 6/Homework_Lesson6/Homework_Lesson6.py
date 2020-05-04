@@ -178,7 +178,7 @@
 
 def displayBoard(missedLetters, correctLetters, secretWord, alfabet_board, theme):
     print(hangnam_pics[len(missedLetters)])
-    print("Тема:", theme)
+    print("Тема:",  theme)
 
     # Показываем состояние угадываемого слова на сейчас
     for index in range(len(secretWord)):
